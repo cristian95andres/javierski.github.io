@@ -9,16 +9,25 @@
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+		<script language="JavaScript">
+			function Abrir_ventana (pagina) {
+			var opciones="toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, width=508, height=365, top=85, left=140";
+			window.open(pagina,"",opciones);
+			}
+		</script>
 	</head>
-	<body class="animated bounceInDown">
+	<body onload="Abrir_ventana('popup/index.html')" class="animated bounceInDown">
 		<div class="avatar">
-			<img src="img/avatar1.jpg" alt="Avatar">
+			<a href='http://javierski.github.io'><img src="img/avatar1.jpg" alt="Avatar"></a>
 		</div>
 		<div class="content">
 			<h1 class="title">Javier E.<br>Martinez</h1>
 			<p>
+				<figcaption></figcaption>
 				Soy estudiante de Progrmacion, mi pasion es decifrar los diferentes estilos de codigos a implementar.<br>
+				<figcaption></figcaption>
 				Girardot, Colombia.<br>
+				<figcaption></figcaption>
 				El conocimiento se construye de apoco y de forma sabia.
 			</p>
 			<ul class="social-icons">

@@ -1,3 +1,15 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?-62u8sr');
+    src:url('fonts/icomoon.eot?#iefix-62u8sr') format('embedded-opentype'),
+        url('fonts/icomoon.woff?-62u8sr') format('woff'),
+        url('fonts/icomoon.ttf?-62u8sr') format('truetype'),
+        url('fonts/icomoon.svg?-62u8sr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @charset "utf-8";
 /*------------------------------------*\
     $RESET
@@ -76,7 +88,7 @@ textarea {
 html {
     background-color: #f6f9f9;
     color: #95a4a9;
-    font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
     margin: 10%;
@@ -114,6 +126,9 @@ body {
                 background-image: url(../img/twitter.png);
                 width: 20px;
                 height: 17px;
+            }
+            .twitter:hover{
+                background-color: red;
             }
             .facebook {
                 background-image: url(../img/facebook.png);
