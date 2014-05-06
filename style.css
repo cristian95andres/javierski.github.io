@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-62u8sr');
-	src:url('fonts/icomoon.eot?#iefix-62u8sr') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-62u8sr') format('woff'),
-		url('fonts/icomoon.ttf?-62u8sr') format('truetype'),
-		url('fonts/icomoon.svg?-62u8sr#icomoon') format('svg');
+	font-family: 'jcode';
+	src:url('fonts/jcode.eot?k1ldbj');
+	src:url('fonts/jcode.eot?#iefixk1ldbj') format('embedded-opentype'),
+		url('fonts/jcode.woff?k1ldbj') format('woff'),
+		url('fonts/jcode.ttf?k1ldbj') format('truetype'),
+		url('fonts/jcode.svg?k1ldbj#jcode') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'icomoon';
+	font-family: 'jcode';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -25,4 +25,7 @@
 
 .icon-pushpin:before {
 	content: "\e600";
+}
+.icon-location:before {
+	content: "\e601";
 }
