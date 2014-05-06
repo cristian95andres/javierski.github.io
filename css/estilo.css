@@ -112,6 +112,14 @@ body {
     width: 21px;
     height: 19px;
 }
+.dribbble:hover{
+    background-image: url(../img/dribbble-b.png);
+    -webkit-transition: background-image .3s ease;
+    -moz-transition: background-image .3s ease;
+    -o-transition: background-image .3s ease;
+    -ms-transition: background-image .3s ease;
+    transition: background-image .3s ease;
+}
 .facebook {
     background-image: url(../img/facebook.png);
     width: 10px;
